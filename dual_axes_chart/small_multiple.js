@@ -10,7 +10,7 @@ var graphs = (function () {
     }
 
     loadInbuiltSmallMultiples = function () {
-        csv_loader.loadcsvFromUrl('http://localhost:3030/assign2/data.csv', formatData);
+        csv_loader.loadcsvFromUrl('/dual_axes_chart/data.csv', formatData);
         config.formattedData = '';
         config.formattedData = [
         {
